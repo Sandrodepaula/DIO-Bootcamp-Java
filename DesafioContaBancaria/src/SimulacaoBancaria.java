@@ -32,12 +32,13 @@ public class SimulacaoBancaria {
                     } else{
                         saldo -= saque;
                         System.out.println("Saldo atual: " + saldo);
+
                     }
                       
                     break;
                 case 3:
                     //Exibir o saldo atual da conta.
-                    System.out.println("Saldo atual: " + saldo );
+                    System.out.println("Saldo atual: "+ saldo );
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
