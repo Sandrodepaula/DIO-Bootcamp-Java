@@ -22,12 +22,10 @@ public class Item {
 	public int getQuant() {
 		return quant;
     }
-    public String toString() {
-            return "Item{" +
-                    "nome='" + nome + '\'' +
-                    ", preco=" + preco +
-                    ", quant=" + quant +
-                    '}';
-    }
+
+  public String toString() {
+
+    return "Item{" + "nome= " + nome + '\'' + ", preco=" + preco + ", quant=" + quant + '}';
+  }
     
 }
